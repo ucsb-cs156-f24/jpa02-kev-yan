@@ -1,7 +1,9 @@
 package edu.ucsb.cs156.spring.hello;
 
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Modifier;
@@ -26,7 +28,7 @@ public class DeveloperTest {
     }
 
     @Test
-    public void getGithubId_returns_correct_name() {
+    public void getGithubId_returns_correct_GithubId() {
         assertEquals("kev-yan", Developer.getGithubId());
     }
 
