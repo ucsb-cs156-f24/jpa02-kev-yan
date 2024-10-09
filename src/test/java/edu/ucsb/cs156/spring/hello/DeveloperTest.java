@@ -27,7 +27,7 @@ public class DeveloperTest {
 
     @Test
     public void getGithubId_returns_correct_name() {
-        assertEquals("kev-ya", Developer.getName());
+        assertEquals("kev-yan", Developer.getName());
     }
 
     // TODO: Add additional tests as needed to get to 100% jacoco line coverage, and
