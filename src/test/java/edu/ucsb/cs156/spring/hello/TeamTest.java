@@ -54,7 +54,7 @@ public class TeamTest {
         Team t2 = new Team();
         t2.setName("foo");
         t2.addMember("bar");
-        assertEquals(t1.hashCode(), t2.hashCode());
+        assertEquals(t1.hashCode(), 130294);
         // int result = team.hashCode();
         // int expectedResult = 0;
         // assertEquals(expectedResult, result);
